@@ -148,7 +148,26 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #555;
 }
-
+.label-checkbox-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .label-checkbox-container label {
+    margin-left: 15px; 
+    
+    font-family: 'Roboto', sans-serif; 
+    color: #333; 
+  }
+  
+  .label-checkbox-container input[type="checkbox"] {
+    
+    cursor: pointer;
+    width: 16px; 
+    height: 16px;
+  }
+  
 table {
     width: 100%;
     border-collapse: collapse;
