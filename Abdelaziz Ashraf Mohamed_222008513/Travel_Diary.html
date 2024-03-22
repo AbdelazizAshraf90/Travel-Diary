@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Travel Diary</title>
+    <link rel="stylesheet" href="/Travel_Diary.CSS">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Travel Diary</h1>
+        <nav>
+            <ul>
+                <li><a href="#" target="_blank">Home</a></li>
+                <li><a href="#" target="_blank">About</a></li>
+                <li><a href="#" target="_blank">Destinations</a></li>
+                <li><a href="#" target="_blank">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="beach-section">
+            <h2>Latest Adventure: Beach Trip</h2>
+            <p>Here's a glimpse into my recent beach trip to paradise. The sun, sand, and waves made it an unforgettable experience.</p>
+            <a href="https://www.businessinsider.com/best-beaches-in-the-world-2017-11" target="_blank">
+                <img src="/5a1d9d513339b0b9008b46a5.webp" alt="Description of the image">
+            </a>
+            <br>
+            <button onclick="window.open('https://www.businessinsider.com/best-beaches-in-the-world-2017-11','_blank')">Source Page</button>
+            
+            
+        </section>
+
+        <section class="upcoming-section">
+            <h2>Upcoming Adventures</h2>
+            <p>Plan your next adventure with us. Check out the upcoming destinations.</p>
+            
+            <ul>
+                <li>Mountain hiking expedition</li>
+                <li>City exploration in Europe</li>
+                <li>Safari adventure in Africa</li>
+            </ul>
+        </section>
+
+        <section class="share-section">
+            <h2>Share Your Own Travel Story</h2>
+            <form action="#">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="story">Your Story:</label><br>
+                <textarea id="story" name="story" rows="4" cols="50" required></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+        <section class="destinations-section">
+            <h2>Popular Destinations</h2>
+            <table>
+                <tr>
+                    <th>Destination</th>
+                    <th>Attractions</th>
+                    <th>Best Time to Visit</th>
+                </tr>
+                <tr>
+                    <td>Paris, France</td>
+                    <td>Eiffel Tower, Louvre Museum</td>
+                    <td>Spring</td>
+                </tr>
+                <tr>
+                    <td>Bali, Indonesia</td>
+                    <td>Beaches, Temples</td>
+                    <td>Year-round</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Travel Diary. All rights reserved.</p>
+    </footer>
+</body>
+</html>
